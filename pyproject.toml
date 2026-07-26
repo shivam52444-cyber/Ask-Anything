@@ -1,0 +1,12 @@
+[project]
+name = "monitor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "huggingface-hub>=1.24.0",
+    "langchain-community>=0.4.2",
+    "langchain-text-splitters>=1.1.2",
+    "pymupdf>=1.28.0",
+]
